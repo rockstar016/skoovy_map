@@ -1,0 +1,15 @@
+PODS:
+  - IQKeyboardManagerSwift (4.0.9)
+  - MobilePlayer (1.2.0)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - MobilePlayer
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 2eefe6c429b86aa08bfbc1b5c891164d754adf91
+  MobilePlayer: 069b13482499f14c25b6ce53f63a91e17975b073
+
+PODFILE CHECKSUM: 9ec608e6d8228fdf763a9a663d913fe32cba078a
+
+COCOAPODS: 1.1.1

@@ -7,8 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0BF07445D3E97E0B0AFC526 /* Pods_skoovymap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03F089AAB58AB888295246A /* Pods_skoovymap.framework */; };
+		CCA76CCA1EBB30C200CE1E49 /* NewContentRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA76CC91EBB30C200CE1E49 /* NewContentRequestViewController.swift */; };
+		CCA76CCC1EBB43B500CE1E49 /* CheckboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA76CCB1EBB43B500CE1E49 /* CheckboxButton.swift */; };
+		CCA76CD31EBB68D200CE1E49 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA76CD21EBB68D200CE1E49 /* ContentViewController.swift */; };
+		CCA76CD61EBBA6F800CE1E49 /* splash.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CCA76CD51EBBA6F800CE1E49 /* splash.mp4 */; };
+		CCA76CD81EBC1CE000CE1E49 /* ShareLocationAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA76CD71EBC1CE000CE1E49 /* ShareLocationAlertView.xib */; };
+		CCA76CDA1EBC638A00CE1E49 /* PlaceAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA76CD91EBC638A00CE1E49 /* PlaceAlert.xib */; };
+		CCA76CDD1EBC64D400CE1E49 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA76CDB1EBC64D400CE1E49 /* ImageCell.swift */; };
+		CCA76CDE1EBC64D400CE1E49 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA76CDC1EBC64D400CE1E49 /* VideoCell.swift */; };
 		DD7A9D1B1EBB182700030113 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7A9D1A1EBB182700030113 /* AppDelegate.swift */; };
-		DD7A9D1D1EBB182700030113 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7A9D1C1EBB182700030113 /* ViewController.swift */; };
+		DD7A9D1D1EBB182700030113 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7A9D1C1EBB182700030113 /* MapViewController.swift */; };
 		DD7A9D201EBB182800030113 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7A9D1E1EBB182800030113 /* Main.storyboard */; };
 		DD7A9D231EBB182800030113 /* skoovymap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD7A9D211EBB182800030113 /* skoovymap.xcdatamodeld */; };
 		DD7A9D251EBB182800030113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7A9D241EBB182800030113 /* Assets.xcassets */; };
@@ -35,9 +44,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		92E9BAE6394260CC593DB316 /* Pods-skoovymap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skoovymap.release.xcconfig"; path = "Pods/Target Support Files/Pods-skoovymap/Pods-skoovymap.release.xcconfig"; sourceTree = "<group>"; };
+		B03F089AAB58AB888295246A /* Pods_skoovymap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_skoovymap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA76CC91EBB30C200CE1E49 /* NewContentRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewContentRequestViewController.swift; sourceTree = "<group>"; };
+		CCA76CCB1EBB43B500CE1E49 /* CheckboxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxButton.swift; sourceTree = "<group>"; };
+		CCA76CD21EBB68D200CE1E49 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		CCA76CD51EBBA6F800CE1E49 /* splash.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = splash.mp4; sourceTree = "<group>"; };
+		CCA76CD71EBC1CE000CE1E49 /* ShareLocationAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareLocationAlertView.xib; sourceTree = "<group>"; };
+		CCA76CD91EBC638A00CE1E49 /* PlaceAlert.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceAlert.xib; sourceTree = "<group>"; };
+		CCA76CDB1EBC64D400CE1E49 /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCell.swift; path = CustomCell/ImageCell.swift; sourceTree = "<group>"; };
+		CCA76CDC1EBC64D400CE1E49 /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoCell.swift; path = CustomCell/VideoCell.swift; sourceTree = "<group>"; };
 		DD7A9D171EBB182700030113 /* skoovymap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skoovymap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7A9D1A1EBB182700030113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD7A9D1C1EBB182700030113 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD7A9D1C1EBB182700030113 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		DD7A9D1F1EBB182800030113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD7A9D221EBB182800030113 /* skoovymap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = skoovymap.xcdatamodel; sourceTree = "<group>"; };
 		DD7A9D241EBB182800030113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +68,7 @@
 		DD7A9D391EBB182800030113 /* skoovymapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skoovymapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7A9D3D1EBB182800030113 /* skoovymapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skoovymapUITests.swift; sourceTree = "<group>"; };
 		DD7A9D3F1EBB182800030113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69203EED478C1599E7F9269 /* Pods-skoovymap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skoovymap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-skoovymap/Pods-skoovymap.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0BF07445D3E97E0B0AFC526 /* Pods_skoovymap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +97,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5835DFFDBD5CE7A8BF39937B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F69203EED478C1599E7F9269 /* Pods-skoovymap.debug.xcconfig */,
+				92E9BAE6394260CC593DB316 /* Pods-skoovymap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92B88B0ED9A8D0612AFFB0F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B03F089AAB58AB888295246A /* Pods_skoovymap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA76CCD1EBB677E00CE1E49 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				CCA76CDB1EBC64D400CE1E49 /* ImageCell.swift */,
+				CCA76CDC1EBC64D400CE1E49 /* VideoCell.swift */,
+			);
+			name = CustomCells;
+			sourceTree = "<group>";
+		};
 		DD7A9D0E1EBB182700030113 = {
 			isa = PBXGroup;
 			children = (
+				CCA76CD51EBBA6F800CE1E49 /* splash.mp4 */,
 				DD7A9D191EBB182700030113 /* skoovymap */,
 				DD7A9D311EBB182800030113 /* skoovymapTests */,
 				DD7A9D3C1EBB182800030113 /* skoovymapUITests */,
 				DD7A9D181EBB182700030113 /* Products */,
+				5835DFFDBD5CE7A8BF39937B /* Pods */,
+				92B88B0ED9A8D0612AFFB0F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +150,18 @@
 			isa = PBXGroup;
 			children = (
 				DD7A9D1A1EBB182700030113 /* AppDelegate.swift */,
-				DD7A9D1C1EBB182700030113 /* ViewController.swift */,
+				DD7A9D1C1EBB182700030113 /* MapViewController.swift */,
+				CCA76CC91EBB30C200CE1E49 /* NewContentRequestViewController.swift */,
+				CCA76CD21EBB68D200CE1E49 /* ContentViewController.swift */,
+				CCA76CCD1EBB677E00CE1E49 /* CustomCells */,
 				DD7A9D1E1EBB182800030113 /* Main.storyboard */,
+				CCA76CD71EBC1CE000CE1E49 /* ShareLocationAlertView.xib */,
+				CCA76CD91EBC638A00CE1E49 /* PlaceAlert.xib */,
 				DD7A9D241EBB182800030113 /* Assets.xcassets */,
 				DD7A9D261EBB182800030113 /* LaunchScreen.storyboard */,
 				DD7A9D291EBB182800030113 /* Info.plist */,
 				DD7A9D211EBB182800030113 /* skoovymap.xcdatamodeld */,
+				CCA76CCB1EBB43B500CE1E49 /* CheckboxButton.swift */,
 			);
 			path = skoovymap;
 			sourceTree = "<group>";
@@ -135,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD7A9D421EBB182800030113 /* Build configuration list for PBXNativeTarget "skoovymap" */;
 			buildPhases = (
+				5987D51FEEFEA362BA4E1F54 /* [CP] Check Pods Manifest.lock */,
 				DD7A9D131EBB182700030113 /* Sources */,
 				DD7A9D141EBB182700030113 /* Frameworks */,
 				DD7A9D151EBB182700030113 /* Resources */,
+				0409476F63302561310B2232 /* [CP] Embed Pods Frameworks */,
+				62DD3E11F85460AF090B5952 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +294,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCA76CDA1EBC638A00CE1E49 /* PlaceAlert.xib in Resources */,
+				CCA76CD61EBBA6F800CE1E49 /* splash.mp4 in Resources */,
 				DD7A9D281EBB182800030113 /* LaunchScreen.storyboard in Resources */,
 				DD7A9D251EBB182800030113 /* Assets.xcassets in Resources */,
 				DD7A9D201EBB182800030113 /* Main.storyboard in Resources */,
+				CCA76CD81EBC1CE000CE1E49 /* ShareLocationAlertView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +319,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0409476F63302561310B2232 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skoovymap/Pods-skoovymap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5987D51FEEFEA362BA4E1F54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		62DD3E11F85460AF090B5952 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-skoovymap/Pods-skoovymap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD7A9D131EBB182700030113 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCA76CD31EBB68D200CE1E49 /* ContentViewController.swift in Sources */,
 				DD7A9D231EBB182800030113 /* skoovymap.xcdatamodeld in Sources */,
-				DD7A9D1D1EBB182700030113 /* ViewController.swift in Sources */,
+				CCA76CDD1EBC64D400CE1E49 /* ImageCell.swift in Sources */,
+				CCA76CCA1EBB30C200CE1E49 /* NewContentRequestViewController.swift in Sources */,
+				CCA76CDE1EBC64D400CE1E49 /* VideoCell.swift in Sources */,
+				DD7A9D1D1EBB182700030113 /* MapViewController.swift in Sources */,
+				CCA76CCC1EBB43B500CE1E49 /* CheckboxButton.swift in Sources */,
 				DD7A9D1B1EBB182700030113 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +527,7 @@
 		};
 		DD7A9D431EBB182800030113 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F69203EED478C1599E7F9269 /* Pods-skoovymap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = skoovymap/Info.plist;
@@ -424,6 +540,7 @@
 		};
 		DD7A9D441EBB182800030113 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92E9BAE6394260CC593DB316 /* Pods-skoovymap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = skoovymap/Info.plist;
@@ -507,6 +624,7 @@
 				DD7A9D441EBB182800030113 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD7A9D451EBB182800030113 /* Build configuration list for PBXNativeTarget "skoovymapTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +633,7 @@
 				DD7A9D471EBB182800030113 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DD7A9D481EBB182800030113 /* Build configuration list for PBXNativeTarget "skoovymapUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +642,7 @@
 				DD7A9D4A1EBB182800030113 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

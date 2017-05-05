@@ -1,0 +1,10 @@
+use_frameworks!
+
+platform :ios, ‘9.0’
+
+    pod 'IQKeyboardManagerSwift'
+    pod "MobilePlayer"
+
+target ‘skoovymap’ do
+	
+end

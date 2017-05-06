@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		C0BF07445D3E97E0B0AFC526 /* Pods_skoovymap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03F089AAB58AB888295246A /* Pods_skoovymap.framework */; };
 		CCA76CCA1EBB30C200CE1E49 /* NewContentRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA76CC91EBB30C200CE1E49 /* NewContentRequestViewController.swift */; };
-		CCA76CCC1EBB43B500CE1E49 /* CheckboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA76CCB1EBB43B500CE1E49 /* CheckboxButton.swift */; };
 		CCA76CD31EBB68D200CE1E49 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA76CD21EBB68D200CE1E49 /* ContentViewController.swift */; };
 		CCA76CD61EBBA6F800CE1E49 /* splash.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CCA76CD51EBBA6F800CE1E49 /* splash.mp4 */; };
-		CCA76CD81EBC1CE000CE1E49 /* ShareLocationAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA76CD71EBC1CE000CE1E49 /* ShareLocationAlertView.xib */; };
-		CCA76CDA1EBC638A00CE1E49 /* PlaceAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCA76CD91EBC638A00CE1E49 /* PlaceAlert.xib */; };
 		CCA76CDD1EBC64D400CE1E49 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA76CDB1EBC64D400CE1E49 /* ImageCell.swift */; };
 		CCA76CDE1EBC64D400CE1E49 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA76CDC1EBC64D400CE1E49 /* VideoCell.swift */; };
+		DD0238611EBCF91300FC5374 /* ConstantVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0238601EBCF91300FC5374 /* ConstantVars.swift */; };
+		DD0238631EBCFABC00FC5374 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0238621EBCFABC00FC5374 /* User.swift */; };
+		DD0238651EBCFB0000FC5374 /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0238641EBCFB0000FC5374 /* UserLocation.swift */; };
+		DD0238671EBD1A5600FC5374 /* UserAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0238661EBD1A5600FC5374 /* UserAnnotation.swift */; };
 		DD7A9D1B1EBB182700030113 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7A9D1A1EBB182700030113 /* AppDelegate.swift */; };
 		DD7A9D1D1EBB182700030113 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7A9D1C1EBB182700030113 /* MapViewController.swift */; };
 		DD7A9D201EBB182800030113 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7A9D1E1EBB182800030113 /* Main.storyboard */; };
@@ -24,6 +25,11 @@
 		DD7A9D281EBB182800030113 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7A9D261EBB182800030113 /* LaunchScreen.storyboard */; };
 		DD7A9D331EBB182800030113 /* skoovymapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7A9D321EBB182800030113 /* skoovymapTests.swift */; };
 		DD7A9D3E1EBB182800030113 /* skoovymapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7A9D3D1EBB182800030113 /* skoovymapUITests.swift */; };
+		DDA595401EBC76F7006750AE /* CheckboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5953D1EBC76F7006750AE /* CheckboxButton.swift */; };
+		DDA595411EBC76F7006750AE /* PlaceAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDA5953E1EBC76F7006750AE /* PlaceAlert.xib */; };
+		DDA595421EBC76F7006750AE /* ShareLocationAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDA5953F1EBC76F7006750AE /* ShareLocationAlertView.xib */; };
+		DDA595441EBC979B006750AE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA595431EBC979B006750AE /* LoginViewController.swift */; };
+		DDA595461EBCA07D006750AE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDA595451EBCA07D006750AE /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,13 +53,14 @@
 		92E9BAE6394260CC593DB316 /* Pods-skoovymap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skoovymap.release.xcconfig"; path = "Pods/Target Support Files/Pods-skoovymap/Pods-skoovymap.release.xcconfig"; sourceTree = "<group>"; };
 		B03F089AAB58AB888295246A /* Pods_skoovymap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_skoovymap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA76CC91EBB30C200CE1E49 /* NewContentRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewContentRequestViewController.swift; sourceTree = "<group>"; };
-		CCA76CCB1EBB43B500CE1E49 /* CheckboxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxButton.swift; sourceTree = "<group>"; };
 		CCA76CD21EBB68D200CE1E49 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		CCA76CD51EBBA6F800CE1E49 /* splash.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = splash.mp4; sourceTree = "<group>"; };
-		CCA76CD71EBC1CE000CE1E49 /* ShareLocationAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareLocationAlertView.xib; sourceTree = "<group>"; };
-		CCA76CD91EBC638A00CE1E49 /* PlaceAlert.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceAlert.xib; sourceTree = "<group>"; };
 		CCA76CDB1EBC64D400CE1E49 /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCell.swift; path = CustomCell/ImageCell.swift; sourceTree = "<group>"; };
 		CCA76CDC1EBC64D400CE1E49 /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoCell.swift; path = CustomCell/VideoCell.swift; sourceTree = "<group>"; };
+		DD0238601EBCF91300FC5374 /* ConstantVars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantVars.swift; sourceTree = "<group>"; };
+		DD0238621EBCFABC00FC5374 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DD0238641EBCFB0000FC5374 /* UserLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
+		DD0238661EBD1A5600FC5374 /* UserAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAnnotation.swift; sourceTree = "<group>"; };
 		DD7A9D171EBB182700030113 /* skoovymap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skoovymap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7A9D1A1EBB182700030113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD7A9D1C1EBB182700030113 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +75,11 @@
 		DD7A9D391EBB182800030113 /* skoovymapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skoovymapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD7A9D3D1EBB182800030113 /* skoovymapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skoovymapUITests.swift; sourceTree = "<group>"; };
 		DD7A9D3F1EBB182800030113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDA5953D1EBC76F7006750AE /* CheckboxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxButton.swift; sourceTree = "<group>"; };
+		DDA5953E1EBC76F7006750AE /* PlaceAlert.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceAlert.xib; sourceTree = "<group>"; };
+		DDA5953F1EBC76F7006750AE /* ShareLocationAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareLocationAlertView.xib; sourceTree = "<group>"; };
+		DDA595431EBC979B006750AE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DDA595451EBCA07D006750AE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F69203EED478C1599E7F9269 /* Pods-skoovymap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skoovymap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-skoovymap/Pods-skoovymap.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +135,16 @@
 			name = CustomCells;
 			sourceTree = "<group>";
 		};
+		DD02385D1EBCF66A00FC5374 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DD0238621EBCFABC00FC5374 /* User.swift */,
+				DD0238601EBCF91300FC5374 /* ConstantVars.swift */,
+				DD0238641EBCFB0000FC5374 /* UserLocation.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		DD7A9D0E1EBB182700030113 = {
 			isa = PBXGroup;
 			children = (
@@ -153,15 +175,16 @@
 				DD7A9D1C1EBB182700030113 /* MapViewController.swift */,
 				CCA76CC91EBB30C200CE1E49 /* NewContentRequestViewController.swift */,
 				CCA76CD21EBB68D200CE1E49 /* ContentViewController.swift */,
+				DD02385D1EBCF66A00FC5374 /* Utils */,
+				DDA5953C1EBC76F7006750AE /* CustomView */,
 				CCA76CCD1EBB677E00CE1E49 /* CustomCells */,
 				DD7A9D1E1EBB182800030113 /* Main.storyboard */,
-				CCA76CD71EBC1CE000CE1E49 /* ShareLocationAlertView.xib */,
-				CCA76CD91EBC638A00CE1E49 /* PlaceAlert.xib */,
 				DD7A9D241EBB182800030113 /* Assets.xcassets */,
 				DD7A9D261EBB182800030113 /* LaunchScreen.storyboard */,
 				DD7A9D291EBB182800030113 /* Info.plist */,
+				DDA595451EBCA07D006750AE /* GoogleService-Info.plist */,
 				DD7A9D211EBB182800030113 /* skoovymap.xcdatamodeld */,
-				CCA76CCB1EBB43B500CE1E49 /* CheckboxButton.swift */,
+				DDA595431EBC979B006750AE /* LoginViewController.swift */,
 			);
 			path = skoovymap;
 			sourceTree = "<group>";
@@ -182,6 +205,17 @@
 				DD7A9D3F1EBB182800030113 /* Info.plist */,
 			);
 			path = skoovymapUITests;
+			sourceTree = "<group>";
+		};
+		DDA5953C1EBC76F7006750AE /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				DDA5953D1EBC76F7006750AE /* CheckboxButton.swift */,
+				DDA5953E1EBC76F7006750AE /* PlaceAlert.xib */,
+				DDA5953F1EBC76F7006750AE /* ShareLocationAlertView.xib */,
+				DD0238661EBD1A5600FC5374 /* UserAnnotation.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +289,7 @@
 				TargetAttributes = {
 					DD7A9D161EBB182700030113 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7G36KX27ZY;
 						ProvisioningStyle = Automatic;
 					};
 					DD7A9D2D1EBB182800030113 = {
@@ -294,12 +329,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCA76CDA1EBC638A00CE1E49 /* PlaceAlert.xib in Resources */,
 				CCA76CD61EBBA6F800CE1E49 /* splash.mp4 in Resources */,
+				DDA595421EBC76F7006750AE /* ShareLocationAlertView.xib in Resources */,
 				DD7A9D281EBB182800030113 /* LaunchScreen.storyboard in Resources */,
 				DD7A9D251EBB182800030113 /* Assets.xcassets in Resources */,
 				DD7A9D201EBB182800030113 /* Main.storyboard in Resources */,
-				CCA76CD81EBC1CE000CE1E49 /* ShareLocationAlertView.xib in Resources */,
+				DDA595411EBC76F7006750AE /* PlaceAlert.xib in Resources */,
+				DDA595461EBCA07D006750AE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,14 +408,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDA595441EBC979B006750AE /* LoginViewController.swift in Sources */,
+				DD0238611EBCF91300FC5374 /* ConstantVars.swift in Sources */,
 				CCA76CD31EBB68D200CE1E49 /* ContentViewController.swift in Sources */,
 				DD7A9D231EBB182800030113 /* skoovymap.xcdatamodeld in Sources */,
 				CCA76CDD1EBC64D400CE1E49 /* ImageCell.swift in Sources */,
 				CCA76CCA1EBB30C200CE1E49 /* NewContentRequestViewController.swift in Sources */,
+				DDA595401EBC76F7006750AE /* CheckboxButton.swift in Sources */,
 				CCA76CDE1EBC64D400CE1E49 /* VideoCell.swift in Sources */,
 				DD7A9D1D1EBB182700030113 /* MapViewController.swift in Sources */,
-				CCA76CCC1EBB43B500CE1E49 /* CheckboxButton.swift in Sources */,
+				DD0238671EBD1A5600FC5374 /* UserAnnotation.swift in Sources */,
+				DD0238651EBCFB0000FC5374 /* UserLocation.swift in Sources */,
 				DD7A9D1B1EBB182700030113 /* AppDelegate.swift in Sources */,
+				DD0238631EBCFABC00FC5374 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +571,7 @@
 			baseConfigurationReference = F69203EED478C1599E7F9269 /* Pods-skoovymap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7G36KX27ZY;
 				INFOPLIST_FILE = skoovymap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hotsalsainteractive.skoovymap;
@@ -543,6 +585,7 @@
 			baseConfigurationReference = 92E9BAE6394260CC593DB316 /* Pods-skoovymap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7G36KX27ZY;
 				INFOPLIST_FILE = skoovymap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hotsalsainteractive.skoovymap;

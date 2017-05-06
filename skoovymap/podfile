@@ -5,6 +5,12 @@ platform :ios, ‘9.0’
     pod 'IQKeyboardManagerSwift'
     pod "MobilePlayer"
 
+    pod 'Firebase/Core'
+    pod 'Firebase/Auth'
+    pod 'Firebase/Messaging'
+    pod 'Firebase/Storage'
+    pod 'Firebase/Database'
+    pod 'MBProgressHUD', '~> 1.0.0'
 target ‘skoovymap’ do
 	
 end

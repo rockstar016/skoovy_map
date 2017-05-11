@@ -28,4 +28,9 @@ class UserAnnotation: MKPointAnnotation {
     var imageView:UIImage!
     var uid:String!
     var count_posts:Int = 1
+    var address : String = ""
+    var isNew:Bool = false
+//    var userlang:NSNumber?
+//    var userlong:NSNumber?
+    
 }

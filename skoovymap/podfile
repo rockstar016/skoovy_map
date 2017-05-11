@@ -4,13 +4,15 @@ platform :ios, ‘9.0’
 
     pod 'IQKeyboardManagerSwift'
     pod "MobilePlayer"
-
+    pod 'Alamofire', '~> 4.0'
     pod 'Firebase/Core'
     pod 'Firebase/Auth'
     pod 'Firebase/Messaging'
     pod 'Firebase/Storage'
     pod 'Firebase/Database'
     pod 'MBProgressHUD', '~> 1.0.0'
+    pod ‘DatePickerDialog’
+    pod ‘NVActivityIndicatorView’
 target ‘skoovymap’ do
 	
 end

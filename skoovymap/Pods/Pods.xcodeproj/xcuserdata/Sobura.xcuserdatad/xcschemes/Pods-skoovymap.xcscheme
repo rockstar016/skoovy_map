@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BFD038F14346A4B1B5EB6168E4C2971F"
+               BlueprintIdentifier = "DF41C01F312414F5713D8998F871E7BD"
                BuildableName = "Pods_skoovymap.framework"
                BlueprintName = "Pods-skoovymap"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BFD038F14346A4B1B5EB6168E4C2971F"
+            BlueprintIdentifier = "DF41C01F312414F5713D8998F871E7BD"
             BuildableName = "Pods_skoovymap.framework"
             BlueprintName = "Pods-skoovymap"
             ReferencedContainer = "container:Pods.xcodeproj">

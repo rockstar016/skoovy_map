@@ -1,0 +1,6 @@
+framework module SlidingContainerViewController {
+  umbrella header "SlidingContainerViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

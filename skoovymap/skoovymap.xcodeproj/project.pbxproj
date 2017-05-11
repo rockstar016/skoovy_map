@@ -8,11 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		C0BF07445D3E97E0B0AFC526 /* Pods_skoovymap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03F089AAB58AB888295246A /* Pods_skoovymap.framework */; };
+		CC17D0E91EC10083000A1AE8 /* ShareLocationAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC17D0E81EC10083000A1AE8 /* ShareLocationAlertView.swift */; };
+		CC17D0EB1EC181CF000A1AE8 /* ReceiveRequestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC17D0EA1EC181CF000A1AE8 /* ReceiveRequestView.xib */; };
+		CC17D0ED1EC181E8000A1AE8 /* ReceiveRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC17D0EC1EC181E8000A1AE8 /* ReceiveRequestView.swift */; };
+		CC608CDA1EC202DF00FF9EC2 /* RequestPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC608CD91EC202DF00FF9EC2 /* RequestPostView.swift */; };
 		CCA76CCA1EBB30C200CE1E49 /* NewContentRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA76CC91EBB30C200CE1E49 /* NewContentRequestViewController.swift */; };
 		CCA76CD31EBB68D200CE1E49 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA76CD21EBB68D200CE1E49 /* ContentViewController.swift */; };
 		CCA76CD61EBBA6F800CE1E49 /* splash.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CCA76CD51EBBA6F800CE1E49 /* splash.mp4 */; };
 		CCA76CDD1EBC64D400CE1E49 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA76CDB1EBC64D400CE1E49 /* ImageCell.swift */; };
 		CCA76CDE1EBC64D400CE1E49 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA76CDC1EBC64D400CE1E49 /* VideoCell.swift */; };
+		CCD16E9C1EC5005A006C0EA6 /* ProfileListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD16E991EC5005A006C0EA6 /* ProfileListView.swift */; };
+		CCD16E9D1EC5005A006C0EA6 /* ProfileMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD16E9A1EC5005A006C0EA6 /* ProfileMapView.swift */; };
+		CCD16E9E1EC5005A006C0EA6 /* ProfilePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD16E9B1EC5005A006C0EA6 /* ProfilePageViewController.swift */; };
+		CCD16EA01EC5006E006C0EA6 /* ProfileListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD16E9F1EC5006E006C0EA6 /* ProfileListViewCell.swift */; };
+		CCD16EA31EC5017E006C0EA6 /* APIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD16EA11EC5017E006C0EA6 /* APIS.swift */; };
+		CCD16EA41EC5017E006C0EA6 /* Skoovymap_Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD16EA21EC5017E006C0EA6 /* Skoovymap_Alamofire.swift */; };
+		CCF94C181EC0D102000346F6 /* UserLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF94C171EC0D102000346F6 /* UserLocationView.swift */; };
+		CCF94C1A1EC0D3D7000346F6 /* UIView+BezierPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF94C191EC0D3D7000346F6 /* UIView+BezierPaths.swift */; };
+		CCF94C1C1EC0D81D000346F6 /* UserAnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF94C1B1EC0D81D000346F6 /* UserAnotationView.swift */; };
 		DD0238611EBCF91300FC5374 /* ConstantVars.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0238601EBCF91300FC5374 /* ConstantVars.swift */; };
 		DD0238631EBCFABC00FC5374 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0238621EBCFABC00FC5374 /* User.swift */; };
 		DD0238651EBCFB0000FC5374 /* UserLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0238641EBCFB0000FC5374 /* UserLocation.swift */; };
@@ -26,7 +39,7 @@
 		DD7A9D331EBB182800030113 /* skoovymapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7A9D321EBB182800030113 /* skoovymapTests.swift */; };
 		DD7A9D3E1EBB182800030113 /* skoovymapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7A9D3D1EBB182800030113 /* skoovymapUITests.swift */; };
 		DDA595401EBC76F7006750AE /* CheckboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA5953D1EBC76F7006750AE /* CheckboxButton.swift */; };
-		DDA595411EBC76F7006750AE /* PlaceAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDA5953E1EBC76F7006750AE /* PlaceAlert.xib */; };
+		DDA595411EBC76F7006750AE /* UserLocationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDA5953E1EBC76F7006750AE /* UserLocationView.xib */; };
 		DDA595421EBC76F7006750AE /* ShareLocationAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDA5953F1EBC76F7006750AE /* ShareLocationAlertView.xib */; };
 		DDA595441EBC979B006750AE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA595431EBC979B006750AE /* LoginViewController.swift */; };
 		DDA595461EBCA07D006750AE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDA595451EBCA07D006750AE /* GoogleService-Info.plist */; };
@@ -52,11 +65,24 @@
 /* Begin PBXFileReference section */
 		92E9BAE6394260CC593DB316 /* Pods-skoovymap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-skoovymap.release.xcconfig"; path = "Pods/Target Support Files/Pods-skoovymap/Pods-skoovymap.release.xcconfig"; sourceTree = "<group>"; };
 		B03F089AAB58AB888295246A /* Pods_skoovymap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_skoovymap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC17D0E81EC10083000A1AE8 /* ShareLocationAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareLocationAlertView.swift; sourceTree = "<group>"; };
+		CC17D0EA1EC181CF000A1AE8 /* ReceiveRequestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceiveRequestView.xib; sourceTree = "<group>"; };
+		CC17D0EC1EC181E8000A1AE8 /* ReceiveRequestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiveRequestView.swift; sourceTree = "<group>"; };
+		CC608CD91EC202DF00FF9EC2 /* RequestPostView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestPostView.swift; sourceTree = "<group>"; };
 		CCA76CC91EBB30C200CE1E49 /* NewContentRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewContentRequestViewController.swift; sourceTree = "<group>"; };
 		CCA76CD21EBB68D200CE1E49 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		CCA76CD51EBBA6F800CE1E49 /* splash.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = splash.mp4; sourceTree = "<group>"; };
 		CCA76CDB1EBC64D400CE1E49 /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCell.swift; path = CustomCell/ImageCell.swift; sourceTree = "<group>"; };
 		CCA76CDC1EBC64D400CE1E49 /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoCell.swift; path = CustomCell/VideoCell.swift; sourceTree = "<group>"; };
+		CCD16E991EC5005A006C0EA6 /* ProfileListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileListView.swift; path = ProfilePage/ProfileListView.swift; sourceTree = "<group>"; };
+		CCD16E9A1EC5005A006C0EA6 /* ProfileMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileMapView.swift; path = ProfilePage/ProfileMapView.swift; sourceTree = "<group>"; };
+		CCD16E9B1EC5005A006C0EA6 /* ProfilePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfilePageViewController.swift; path = ProfilePage/ProfilePageViewController.swift; sourceTree = "<group>"; };
+		CCD16E9F1EC5006E006C0EA6 /* ProfileListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileListViewCell.swift; path = CustomCell/ProfileListViewCell.swift; sourceTree = "<group>"; };
+		CCD16EA11EC5017E006C0EA6 /* APIS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIS.swift; path = Alamofire/APIS.swift; sourceTree = "<group>"; };
+		CCD16EA21EC5017E006C0EA6 /* Skoovymap_Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Skoovymap_Alamofire.swift; path = Alamofire/Skoovymap_Alamofire.swift; sourceTree = "<group>"; };
+		CCF94C171EC0D102000346F6 /* UserLocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationView.swift; sourceTree = "<group>"; };
+		CCF94C191EC0D3D7000346F6 /* UIView+BezierPaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+BezierPaths.swift"; sourceTree = "<group>"; };
+		CCF94C1B1EC0D81D000346F6 /* UserAnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAnotationView.swift; sourceTree = "<group>"; };
 		DD0238601EBCF91300FC5374 /* ConstantVars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantVars.swift; sourceTree = "<group>"; };
 		DD0238621EBCFABC00FC5374 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		DD0238641EBCFB0000FC5374 /* UserLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocation.swift; sourceTree = "<group>"; };
@@ -76,7 +102,7 @@
 		DD7A9D3D1EBB182800030113 /* skoovymapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skoovymapUITests.swift; sourceTree = "<group>"; };
 		DD7A9D3F1EBB182800030113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDA5953D1EBC76F7006750AE /* CheckboxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxButton.swift; sourceTree = "<group>"; };
-		DDA5953E1EBC76F7006750AE /* PlaceAlert.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlaceAlert.xib; sourceTree = "<group>"; };
+		DDA5953E1EBC76F7006750AE /* UserLocationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserLocationView.xib; sourceTree = "<group>"; };
 		DDA5953F1EBC76F7006750AE /* ShareLocationAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareLocationAlertView.xib; sourceTree = "<group>"; };
 		DDA595431EBC979B006750AE /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DDA595451EBCA07D006750AE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -126,13 +152,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CC9D07271EC4647500CA4445 /* ProfilePage */ = {
+			isa = PBXGroup;
+			children = (
+				CCD16E991EC5005A006C0EA6 /* ProfileListView.swift */,
+				CCD16E9A1EC5005A006C0EA6 /* ProfileMapView.swift */,
+				CCD16E9B1EC5005A006C0EA6 /* ProfilePageViewController.swift */,
+			);
+			name = ProfilePage;
+			sourceTree = "<group>";
+		};
 		CCA76CCD1EBB677E00CE1E49 /* CustomCells */ = {
 			isa = PBXGroup;
 			children = (
+				CCD16E9F1EC5006E006C0EA6 /* ProfileListViewCell.swift */,
 				CCA76CDB1EBC64D400CE1E49 /* ImageCell.swift */,
 				CCA76CDC1EBC64D400CE1E49 /* VideoCell.swift */,
 			);
 			name = CustomCells;
+			sourceTree = "<group>";
+		};
+		CCDAF17A1EC2360900BD3106 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				CCD16EA11EC5017E006C0EA6 /* APIS.swift */,
+				CCD16EA21EC5017E006C0EA6 /* Skoovymap_Alamofire.swift */,
+			);
+			name = Alamofire;
 			sourceTree = "<group>";
 		};
 		DD02385D1EBCF66A00FC5374 /* Utils */ = {
@@ -148,6 +194,7 @@
 		DD7A9D0E1EBB182700030113 = {
 			isa = PBXGroup;
 			children = (
+				CCF94C191EC0D3D7000346F6 /* UIView+BezierPaths.swift */,
 				CCA76CD51EBBA6F800CE1E49 /* splash.mp4 */,
 				DD7A9D191EBB182700030113 /* skoovymap */,
 				DD7A9D311EBB182800030113 /* skoovymapTests */,
@@ -175,6 +222,8 @@
 				DD7A9D1C1EBB182700030113 /* MapViewController.swift */,
 				CCA76CC91EBB30C200CE1E49 /* NewContentRequestViewController.swift */,
 				CCA76CD21EBB68D200CE1E49 /* ContentViewController.swift */,
+				CC9D07271EC4647500CA4445 /* ProfilePage */,
+				CCDAF17A1EC2360900BD3106 /* Alamofire */,
 				DD02385D1EBCF66A00FC5374 /* Utils */,
 				DDA5953C1EBC76F7006750AE /* CustomView */,
 				CCA76CCD1EBB677E00CE1E49 /* CustomCells */,
@@ -185,6 +234,7 @@
 				DDA595451EBCA07D006750AE /* GoogleService-Info.plist */,
 				DD7A9D211EBB182800030113 /* skoovymap.xcdatamodeld */,
 				DDA595431EBC979B006750AE /* LoginViewController.swift */,
+				CC608CD91EC202DF00FF9EC2 /* RequestPostView.swift */,
 			);
 			path = skoovymap;
 			sourceTree = "<group>";
@@ -211,9 +261,14 @@
 			isa = PBXGroup;
 			children = (
 				DDA5953D1EBC76F7006750AE /* CheckboxButton.swift */,
-				DDA5953E1EBC76F7006750AE /* PlaceAlert.xib */,
-				DDA5953F1EBC76F7006750AE /* ShareLocationAlertView.xib */,
 				DD0238661EBD1A5600FC5374 /* UserAnnotation.swift */,
+				DDA5953E1EBC76F7006750AE /* UserLocationView.xib */,
+				CCF94C171EC0D102000346F6 /* UserLocationView.swift */,
+				DDA5953F1EBC76F7006750AE /* ShareLocationAlertView.xib */,
+				CC17D0E81EC10083000A1AE8 /* ShareLocationAlertView.swift */,
+				CC17D0EA1EC181CF000A1AE8 /* ReceiveRequestView.xib */,
+				CC17D0EC1EC181E8000A1AE8 /* ReceiveRequestView.swift */,
+				CCF94C1B1EC0D81D000346F6 /* UserAnotationView.swift */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -334,7 +389,8 @@
 				DD7A9D281EBB182800030113 /* LaunchScreen.storyboard in Resources */,
 				DD7A9D251EBB182800030113 /* Assets.xcassets in Resources */,
 				DD7A9D201EBB182800030113 /* Main.storyboard in Resources */,
-				DDA595411EBC76F7006750AE /* PlaceAlert.xib in Resources */,
+				DDA595411EBC76F7006750AE /* UserLocationView.xib in Resources */,
+				CC17D0EB1EC181CF000A1AE8 /* ReceiveRequestView.xib in Resources */,
 				DDA595461EBCA07D006750AE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,17 +465,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDA595441EBC979B006750AE /* LoginViewController.swift in Sources */,
+				CCD16EA01EC5006E006C0EA6 /* ProfileListViewCell.swift in Sources */,
 				DD0238611EBCF91300FC5374 /* ConstantVars.swift in Sources */,
 				CCA76CD31EBB68D200CE1E49 /* ContentViewController.swift in Sources */,
 				DD7A9D231EBB182800030113 /* skoovymap.xcdatamodeld in Sources */,
+				CCD16E9C1EC5005A006C0EA6 /* ProfileListView.swift in Sources */,
 				CCA76CDD1EBC64D400CE1E49 /* ImageCell.swift in Sources */,
 				CCA76CCA1EBB30C200CE1E49 /* NewContentRequestViewController.swift in Sources */,
 				DDA595401EBC76F7006750AE /* CheckboxButton.swift in Sources */,
 				CCA76CDE1EBC64D400CE1E49 /* VideoCell.swift in Sources */,
+				CCD16EA31EC5017E006C0EA6 /* APIS.swift in Sources */,
+				CCF94C1A1EC0D3D7000346F6 /* UIView+BezierPaths.swift in Sources */,
+				CCF94C1C1EC0D81D000346F6 /* UserAnotationView.swift in Sources */,
+				CCD16EA41EC5017E006C0EA6 /* Skoovymap_Alamofire.swift in Sources */,
+				CC608CDA1EC202DF00FF9EC2 /* RequestPostView.swift in Sources */,
 				DD7A9D1D1EBB182700030113 /* MapViewController.swift in Sources */,
+				CCD16E9E1EC5005A006C0EA6 /* ProfilePageViewController.swift in Sources */,
 				DD0238671EBD1A5600FC5374 /* UserAnnotation.swift in Sources */,
+				CCD16E9D1EC5005A006C0EA6 /* ProfileMapView.swift in Sources */,
+				CC17D0ED1EC181E8000A1AE8 /* ReceiveRequestView.swift in Sources */,
+				CC17D0E91EC10083000A1AE8 /* ShareLocationAlertView.swift in Sources */,
 				DD0238651EBCFB0000FC5374 /* UserLocation.swift in Sources */,
 				DD7A9D1B1EBB182700030113 /* AppDelegate.swift in Sources */,
+				CCF94C181EC0D102000346F6 /* UserLocationView.swift in Sources */,
 				DD0238631EBCFABC00FC5374 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
